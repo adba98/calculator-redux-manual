@@ -1,0 +1,23 @@
+<router-outlet></router-outlet>
+
+<div class="row text-center">
+  <div class="col">
+    <h1>Contador</h1>
+    <h3>{{contador}}</h3>
+  </div>
+</div>
+
+<div class="row text-center">
+  <div class="col">
+    <button class="btn btn-primary btn-m" (click)="incrementar()">Incrementar</button>
+    <button class="btn btn-info btn-m" (click)="decrementar()">Decrementar</button>
+  </div>
+</div>
+
+<hr>
+
+<div class="row text-center">
+  <div class="col">
+   <app-hijo></app-hijo>
+  </div>
+</div>
